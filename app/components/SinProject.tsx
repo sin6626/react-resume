@@ -1,0 +1,26 @@
+import { SinList } from "./common/SinList"
+
+export const SinProject = () => {
+  const project = {
+    project1: [
+    "面向比赛/课程场景开发生鲜储运系统应用层，完成实时监测、历史查询、异常展示、远程控制等核心功能。",
+    "完成实时监测页面开发，采用 HTTP 首次拉取 + WebSocket 增量推送的方式更新设备状态与传感器数据。",
+    "基于 ECharts 实现温度、光照等实时/历史趋势图表展示，支持按设备切换、按时间查询和分钟级数据更新。",
+    "完成指令控制页面开发，支持全局与单设备参数配置、时间同步、控制项动态渲染，并配合后端接口实现远程操作。",
+    "参与后端接口与数据流实现，基于 Express + MySQL + MQTT 完成设备数据接入、存储、查询与指令下发。"
+    ]
+  }
+
+  return (
+    <>
+      <div className="flex flex-col gap-4">
+        <h3 className="font-semibold">项目经历/实习经历</h3>
+        <div className="w-200 h-0.5 bg-gray-500"></div>
+        <p>基于物联网的生鲜品储运监测与控制系统｜应用层前后端独立负责</p>
+        <p className="font-medium">技术栈：Vue3、Vite、Element Plus、ECharts、Pinia、Node.js、Express、MySQL、MQTT、WebSocket
+</p>
+        <SinList items={project.project1} ></SinList>
+      </div>
+    </>
+  )
+}
