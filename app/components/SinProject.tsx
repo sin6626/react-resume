@@ -17,11 +17,13 @@ export const SinProject = () => {
 
   return (
     <>
-      <div className="flex flex-col gap-4">
-        <h3 className="font-semibold">{project?.title || "项目经历/实习经历"}</h3>
-        <div className="w-200 h-0.5 bg-gray-500"></div>
-        <p>{project?.projectName || "基于物联网的生鲜品储运监测与控制系统｜应用层前后端独立负责"}</p>
-        <p className="font-medium">
+      <div className="flex flex-col gap-3 sm:gap-4">
+        <h3 className="font-semibold text-base sm:text-lg">{project?.title || "项目经历/实习经历"}</h3>
+        <div className="w-full h-0.5 bg-gray-400 dark:bg-gray-600"></div>
+        <p className="text-sm sm:text-base font-semibold text-zinc-900 dark:text-zinc-100 break-words">
+          {project?.projectName || "基于物联网的生鲜品储运监测与控制系统｜应用层前后端独立负责"}
+        </p>
+        <p className="text-xs sm:text-sm font-medium text-zinc-600 dark:text-zinc-400 break-words leading-relaxed">
           技术栈：{project?.techStack || "Vue3、Vite、Element Plus、ECharts、Pinia、Node.js、Express、MySQL、MQTT、WebSocket"}
         </p>
         <SinList items={items} />

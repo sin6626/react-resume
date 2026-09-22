@@ -14,9 +14,9 @@ export const SinPraise = () => {
 
   return (
     <>
-      <div className="flex flex-col gap-4">
-        <h3 className="font-semibold">{praise?.title || "获奖与补充信息"}</h3>
-        <div className="w-200 h-0.5 bg-gray-500"></div>
+      <div className="flex flex-col gap-3 sm:gap-4">
+        <h3 className="font-semibold text-base sm:text-lg">{praise?.title || "获奖与补充信息"}</h3>
+        <div className="w-full h-0.5 bg-gray-400 dark:bg-gray-600"></div>
         <SinList items={items} />
       </div>
     </>
