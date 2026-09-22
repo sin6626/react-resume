@@ -1,7 +1,7 @@
 [SinHeader]
 name = "张三"
 direction = "前端开发工程师"
-desc = "XX大学｜计算机科学与技术｜本科在读（2022.09 - 2026.06） | 13800000000 | zhangsan@example.com | example.com"
+desc = "XX大学｜计算机科学与技术｜本科在读 | 13800000000 | zhangsan@example.com | example.com"
 github = "github.com/yourname"
 
 [SinEducation]
@@ -10,43 +10,34 @@ content = "XX大学 计算机科学与技术专业，本科在读"
 
 [SinPraise]
 title = "获奖与补充信息"
-items = [
-  "xxxxxxxxxxxxxx, xxxxxxxxxxxxxxx",
-  "xxxxxxxxxxxxxx, xxxxxxxxxxxxxxx"
-]
+items = ["示例奖项", "示例补充信息"]
 
 [SinTechnicalStack]
 title = "技术栈"
 items = [
-  "熟悉 JavaScript、ES6+，掌握 TypeScript 基础，能够处理常见前端交互与异步逻辑。",
-  "熟悉 Vue3 生态，能够使用 Vue Router、Pinia、Element Plus 开发中后台与数据展示类页面。",
-  "熟悉 Vite、Axios、ECharts，具备接口联调、图表可视化与基础前端工程化能力。",
-  "了解 Node.js、Express、MySQL、WebSocket，能够参与全栈协作与前后端联调。",
-  "善于利用 AI 编程工具辅助代码实现、调试排错与文档整理，提升日常研发效率。"
+  "熟悉 JavaScript、TypeScript 与常见前端开发模式。",
+  "熟悉 Vue3、Uni-app、Nuxt、Pinia 与常见组件库。",
+  "熟悉 React、Next.js 与基础工程化工具。"
 ]
 
 [SinProject]
 title = "项目经历/实习经历"
-projectName = "示例项目名称｜应用层前后端独立负责"
-techStack = "Vue3、Vite、Element Plus、ECharts、Pinia、Node.js、Express、MySQL、WebSocket"
-items = [
-  "负责系统前端架构设计与核心功能开发，实现数据可视化与实时状态展示。",
-  "采用 HTTP 首次拉取 + WebSocket 增量推送的方式更新设备状态与实时数据。",
-  "基于 ECharts 实现多维度图表分析，支持灵活筛选与分钟级数据刷新。",
-  "设计并实现指令控制模块，支持动态表单渲染与批量参数配置。",
-  "参与后端 RESTful API 接口设计与数据库优化，保证高并发场景下的数据一致性。"
-]
+
+[[SinProject.projects]]
+projectName = "示例公司项目｜前端开发实习生"
+techStack = "Uni-app、Vue、Pinia"
+items = ["负责业务页面开发与接口联调。", "参与问题排查与版本迭代。"]
+
+[[SinProject.projects]]
+projectName = "示例个人项目"
+techStack = "Nuxt、Vue、GSAP"
+link = "https://example.com"
+items = ["独立完成项目开发与维护。", "沉淀可复用组件与实践经验。"]
 
 [SinOpen]
 title = "开源与个人实践"
-items = [
-  "积极参与知名开源社区项目，阅读源码并提交 Pull Request，积累开源协作经验。",
-  "持续维护个人技术博客与独立作品，用于技术沉淀与经验分享。"
-]
+items = ["持续维护个人技术博客与独立作品。"]
 
 [SinEvaluation]
 title = "个人评价"
-items = [
-  "主攻前端方向，具备基础全栈协作能力，对实时数据展示、业务系统和可视化场景有较强兴趣。",
-  "学习能力强，能快速融入团队并推进业务落地，有良好的工程素养与代码规范意识。"
-]
+items = ["主攻前端方向，具备良好的学习能力和工程意识。"]

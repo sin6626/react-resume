@@ -19,11 +19,16 @@ export interface ResumeSectionWithItems {
   items?: string[]
 }
 
-export interface ResumeProject {
-  title?: string
+export interface ResumeProjectItem {
   projectName?: string
   techStack?: string
   items?: string[]
+  link?: string
+}
+
+export interface ResumeProject extends ResumeProjectItem {
+  title?: string
+  projects?: ResumeProjectItem[]
 }
 
 export interface ResumeContent {
