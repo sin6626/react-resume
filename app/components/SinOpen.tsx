@@ -6,8 +6,8 @@ export const SinOpen = () => {
   const open = content.SinOpen
 
   const defaultItems: string[] = [
-    "阅读 webadderallorg/Recordly 项目代码并尝试提交 Pull Request，积累真实开源协作流程经验。",
-    "持续维护个人网站 sin6626.me，用于展示项目成果与学习记录。"
+    "参与开源项目并积累协作流程经验。",
+    "持续维护个人技术博客与独立作品。"
   ]
 
   const items = (open?.items && open.items.length > 0) ? open.items : defaultItems

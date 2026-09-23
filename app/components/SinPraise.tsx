@@ -6,8 +6,8 @@ export const SinPraise = () => {
   const praise = content.SinPraise
 
   const defaultItems: string[] = [
-    "第16届蓝桥杯大赛(2025)湖南省软件赛B组C++省二等奖",
-    "坚持算法训练, LeetCode累计532题, 覆盖多种常见题型"
+    "示例奖项或竞赛经历。",
+    "示例学习成果或补充信息。"
   ]
 
   const items = (praise?.items && praise.items.length > 0) ? praise.items : defaultItems

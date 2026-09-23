@@ -9,7 +9,7 @@ export const SinEducation = () => {
       <div className="flex flex-col gap-3 sm:gap-4">
         <h3 className="font-semibold text-base sm:text-lg">{education?.title || "教育经历"}</h3>
         <div className="w-full h-0.5 bg-gray-400 dark:bg-gray-600"></div>
-        <p className="text-sm sm:text-base leading-relaxed break-words">{education?.content || "湖南工程学院 软件工程专业，本科在读"}</p>
+        <p className="text-sm sm:text-base leading-relaxed break-words">{education?.content || "示例大学 计算机相关专业，本科在读"}</p>
       </div>
     </>
   )
