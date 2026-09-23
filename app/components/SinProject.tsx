@@ -21,7 +21,8 @@ export const SinProject = () => {
             </p>
             <SinList items={item?.items || []} />
             {item?.link && (
-              <a className="text-xs sm:text-sm text-blue-600 hover:underline break-all" href={item.link} target="_blank" rel="noreferrer">
+              // break all 允许任意字符换行
+              <a className="text-xs sm:text-sm text-fuchsia-300/80 hover:underline break-all" href={item.link} target="_blank" rel="noreferrer">
                 项目地址：{item.link}
               </a>
             )}
